@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>cs生成钓鱼页面收集信息</title>
+      <link href="/2020/02/27/cs%E7%94%9F%E6%88%90%E9%92%93%E9%B1%BC%E9%A1%B5%E9%9D%A2%E6%94%B6%E9%9B%86%E4%BF%A1%E6%81%AF/"/>
+      <url>/2020/02/27/cs%E7%94%9F%E6%88%90%E9%92%93%E9%B1%BC%E9%A1%B5%E9%9D%A2%E6%94%B6%E9%9B%86%E4%BF%A1%E6%81%AF/</url>
+      
+        <content type="html"><![CDATA[<ul><li>attacks -&gt; web driver-by -&gt; system profiler</li></ul><p>点击输入redirect url，这里我让他重定向到百度<br><img src="https://img-blog.csdnimg.cn/20200227163744945.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM4NDQyNDM4,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br><img src="https://img-blog.csdnimg.cn/20200227164531309.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM4NDQyNDM4,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p><ul><li>attacks -&gt;web driver-by -&gt; manage</li></ul><p>复制得到的url在靶机访问<br><img src="https://img-blog.csdnimg.cn/20200227164757918.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM4NDQyNDM4,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p><ul><li>view -&gt; applications</li></ul><p>查看信息收集结果<br><img src="https://img-blog.csdnimg.cn/20200227164945111.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM4NDQyNDM4,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>ms17-010永恒之蓝漏洞利用</title>
       <link href="/2020/02/27/ms17-010%E6%B0%B8%E6%81%92%E4%B9%8B%E8%93%9D%E6%BC%8F%E6%B4%9E%E5%88%A9%E7%94%A8/"/>
       <url>/2020/02/27/ms17-010%E6%B0%B8%E6%81%92%E4%B9%8B%E8%93%9D%E6%BC%8F%E6%B4%9E%E5%88%A9%E7%94%A8/</url>
