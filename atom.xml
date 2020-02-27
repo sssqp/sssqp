@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-02-27T08:50:31.731Z</updated>
+  <updated>2020-02-27T09:16:20.113Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>cs网页挂马</title>
+    <link href="http://yoursite.com/2020/02/27/cs%E7%BD%91%E9%A1%B5%E6%8C%82%E9%A9%AC/"/>
+    <id>http://yoursite.com/2020/02/27/cs%E7%BD%91%E9%A1%B5%E6%8C%82%E9%A9%AC/</id>
+    <published>2020-02-27T09:16:36.657Z</published>
+    <updated>2020-02-27T09:16:20.113Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li>创建监听</li></ul><p><img src="https://img-blog.csdnimg.cn/20200227165829179.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM4NDQyNDM4,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p><ul><li>attacks -&gt; packages -&gt; html application</li></ul><p>method选择powershell，生成hta文件并保存<br><img src="https://img-blog.csdnimg.cn/20200227170140976.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM4NDQyNDM4,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p><ul><li>attacks -&gt; web driver-by -&gt; host file</li></ul><p>加载木马文件，上传hta木马保存在server端uploads文件夹中<br><img src="https://img-blog.csdnimg.cn/20200227170707334.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM4NDQyNDM4,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p><ul><li>attacks -&gt; web driver-by -&gt; clone site</li></ul><p>这里我克隆百度页面，在attack选中刚上传到server端的hta文件，在日志记录上打勾<br><img src="https://img-blog.csdnimg.cn/20200227170949279.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM4NDQyNDM4,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>返回一个url.<br><img src="https://img-blog.csdnimg.cn/20200227171224677.png" alt="在这里插入图片描述"><br>在靶机中访问url，点击运行file.hta文件<br><img src="https://img-blog.csdnimg.cn/20200227171356494.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM4NDQyNDM4,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>运行后靶机以上线。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ul&gt;
+&lt;li&gt;创建监听&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://img-blog.csdnimg.cn/20200227165829179.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpd
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>cs生成钓鱼页面收集信息</title>
